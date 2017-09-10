@@ -1,7 +1,8 @@
 # [National Corporate Innovation Index]
 
+<br/><br/><br/>
+
 <div align="center">
-<br/><br/><br/><br/><br/><br/>
   <a href="#">
     <img
       src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/jquery.png" width="300"
