@@ -3,7 +3,7 @@
 <div align="center">
   <a href="#">
     <img
-      src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/jquery.png"
+      src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/jquery.png" width="300"
   </a>
 </div>
 <img src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/webpack.png" width="441"/> <img src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/nodejs.png" width="441"/>
