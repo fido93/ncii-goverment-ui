@@ -3,8 +3,10 @@
 ## Getting Started
 
 **Technology Stack**
-
-![jquery](http://url/to/img.png) ![webpack](http://url/to/img.png) ![nodeJs](http://url/to/img.png)
+<img src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/jquery.png" width="425"/>
+<img src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/webpack.png" width="425"/>
+<img src="https://github.com/fido93/ncii-goverment-ui/blob/gov-v01/src/assets/images/logo-git/nodejs.png" width="425"/>
+![jquery]() ![webpack]() ![nodeJs]()
 
 **Prerequisites**
 
