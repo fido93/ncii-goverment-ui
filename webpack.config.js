@@ -8,6 +8,15 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
+  module: {
+    rules: [
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader',
+        include: path.join(__dirname, 'src')
+      }
+    ]
+  },
   plugins: [
     new CopyWebpackPlugin([
       {
