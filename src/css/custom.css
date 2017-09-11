@@ -1,0 +1,106 @@
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus {
+    background-color: #44bcf3 ;
+    border-color: #44bcf3 ;
+    color: #FFFFFF;
+}
+
+.float-left span.fa.arrow {
+    margin-left: 10px;
+    line-height: 46px;
+    transform: rotate(269deg);
+}
+
+li.hide-large-screen {
+  display: none;
+}
+
+
+a.navbar-minimalize.minimalize-styl-2.btn.btn-primary {
+    margin: 18px 22px;
+}
+
+img.img-circle.img-pad-decrease {
+    width: 50px;
+    height: 50px;
+}
+
+a.dropdown-toggle.count-info {
+    padding: 9px 82px;
+}
+
+span.text-naming {
+    margin-left: 9px;
+}
+
+li.nav-header {
+    padding: 57px 25px;
+}
+
+.nav > li.active {
+    border-left: 4px solid #44bcf3;
+    background: #293846;
+}
+
+div#page-wrapper {
+    margin-left: 13.4%;
+}
+
+.navbar-top-links .dropdown-alerts {
+    width: 170px;
+    min-width: 0;
+}
+
+.dropdown-alerts {
+    padding: 0px;
+}
+
+.text-push  {
+  margin-left: 10px;
+}
+
+a.dropdown-toggle.count-info {
+    background: transparent;
+}
+
+.nav.metismenu li a {
+      background: #293846;
+}
+
+.navbar-fixed-top, .navbar-static-top {
+    background: #fafbfc;
+}
+
+.gray-bg, .bg-muted {
+    background-color: #fafbfc;
+}
+
+.dashboard-header {
+    box-shadow: 0px 10px 21px #dce3e9;
+}
+
+/* --- Typography --- */
+
+.title h3 {
+    line-height: 1;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-right.breadcrumbs {
+    font-size: 14px;
+    padding: 4px 0px;
+}
+
+
+/* --- Media Queries -- */
+
+@media (min-width: 768px) {
+  .navbar-static-side {
+      width: 257px;
+  }
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: 61px;
+}
+}
