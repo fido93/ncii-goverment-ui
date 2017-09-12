@@ -1,3 +1,7 @@
+#wrapper {
+  background: #293846;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus {
     background-color: #44bcf3 ;
     border-color: #44bcf3 ;
@@ -41,9 +45,9 @@ li.nav-header {
     background: #293846;
 }
 
-div#page-wrapper {
+/*div#page-wrapper {
     margin-left: 13.4%;
-}
+}*/
 
 .navbar-top-links .dropdown-alerts {
     width: 170px;
@@ -75,7 +79,93 @@ a.dropdown-toggle.count-info {
 }
 
 .dashboard-header {
-    box-shadow: 0px 10px 21px #dce3e9;
+    box-shadow: 0px 1px 17px #464646;
+    position: relative;
+}
+
+.custom-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-flex {
+  width: 100%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.bg-orange {
+  background: #f3b80e;
+}
+
+.bg-blue {
+  background: #53b6ff;
+}
+
+.box-flex ol {
+  margin-bottom: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-title {
+    padding: 0px 35px;
+    background-color: rgba(37, 49, 59, 0.76);
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.5), inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.bg-stripe {
+  background: rgba(46, 60, 73, 0.75);
+}
+
+.bg-nested {
+  background: #404c58;
+}
+
+.box-flex ol li{
+  list-style: none;
+  border-bottom: 1px solid #868282;
+}
+
+.box-flex ol li a {
+  line-height: 29px;
+display: block;
+padding: 37px 35px;
+font-size: 16px;
+background: rgba(41, 56, 70, 0.88);
+color: rgba(255, 255, 255, 0.51);
+}
+
+.box-flex ol li a:hover {
+  color: #ffffff;
+}
+
+.leftwidth-positive {
+  overflow: auto;
+   position: absolute;
+   padding-top: 0px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   margin-top: 13.8rem;
+       z-index: 10;
+}
+
+.temp-survey {
+  margin-left: 25%;
+width: 100%;
+height: 400px;
+position: relative;
+}
+
+.bg-whitepaper {
+  background: #fafbfc;
 }
 
 /* --- Typography --- */
@@ -87,20 +177,53 @@ a.dropdown-toggle.count-info {
     font-weight: 400;
 }
 
+.menu-title a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 13px 0;
+  line-height: 29px;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
 .text-right.breadcrumbs {
     font-size: 14px;
     padding: 4px 0px;
 }
 
+.menu-title .white-text {
+  color: #fffdfd;
+  opacity: 0.76;
+}
+
+.menu-title .white-text:hover {
+  opacity: 1;
+}
 
 /* --- Media Queries -- */
 
+@media (max-width: 1366px) {
+  .custom-nav.navbar-static-side {
+      width: 17% ;
+  }
+  #page-wrapper.custom-wrap  {
+    margin-left: 17% ;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-static-side {
-      width: 257px;
-  }
+    width: 14%;
+}
   .navbar-right .dropdown-menu {
     right: auto;
     left: 61px;
 }
+
+#page-wrapper {
+    margin-left: 14%;
+}
+
 }
