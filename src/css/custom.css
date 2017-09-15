@@ -96,6 +96,10 @@ a.dropdown-toggle.count-info {
   width: 25%;
 }
 
+.col-100 {
+  width: 100%;
+}
+
 .col-75 {
   width: 75%;
 }
@@ -226,6 +230,10 @@ position: relative;
     padding: 10px 0px;
 }
 
+.desc-card a:hover {
+  color: #44bcf3 !important;
+}
+
 .para p {
   font-size: 14px;
     letter-spacing: 0.5px;
@@ -297,7 +305,19 @@ span.progressBar-status {
     height: 4px;
 }
 
+.total-respond  p {
+  margin-bottom: 0px;
+}
+
+.total-respond span.fa {
+    margin: 10px 6px 0px 10px;
+}
+
 /* --- Typography --- */
+
+.red {
+  color: #f0454c !important;
+}
 
 .title h3 {
     line-height: 1;
@@ -338,6 +358,12 @@ span.progressBar-status {
 }
 
 /* --- Media Queries -- */
+
+@media (max-width: 2000px) {
+  .temp-survey {
+    margin-left: 25%;
+  }
+}
 
 @media (max-width: 1600px) {
   .col-25 {
