@@ -670,6 +670,12 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
   }
 }
 
+@media (max-width: 1700px) {
+  .container-survey-question {
+      width: 900px;
+  }
+}
+
 @media (max-width: 1600px) {
   .col-25 {
     width: 280px;
