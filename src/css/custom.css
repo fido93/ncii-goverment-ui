@@ -234,6 +234,14 @@ position: relative;
     border: 1px solid #e2cccc;
 }
 
+.highcharts-credits {
+  display: none;
+}
+
+.ibox-title.ibox-child-title {
+    border-top: 4px solid #ff6c03;
+}
+
 .container-survey {
   width: 900px;
   margin: 0 auto;
@@ -735,6 +743,28 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
 }
 
 @media (min-width: 768px) {
+  .navbar-static-side {
+    width: 14%;
+}
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: 61px;
+}
+
+#page-wrapper {
+    margin-left: 14%;
+}
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  #page-wrapper.custom-wrap {
+      margin-left: 0%;
+  }
   .navbar-static-side {
     width: 14%;
 }
