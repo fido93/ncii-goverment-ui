@@ -777,4 +777,60 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
     margin-left: 14%;
 }
 
+.container-survey > ol::before {
+  display: none;
+}
+
+.box-numbering {
+  display: none;
+}
+
+.container-survey {
+  width: 100%;
+}
+
+li > .box-card {
+    margin-left: 0%;
+    margin: 10px;
+}
+
+.container-survey > ol {
+    position: relative;
+    padding: 0;
+}
+
+.desc-card {
+    padding: 20px 10px;
+}
+
+.box-card {
+    margin: 10px;
+  }
+
+  .leftwidth-positive {
+    overflow: auto;
+    position: relative;
+    padding-top: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.temp-survey {
+    margin-left: 0;
+}
+
+.container-survey-question {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+button.btn.btn-rounded.btn-custom-width {
+    width: 160px;
+    margin: 23px 2px;
+}
+
 }
