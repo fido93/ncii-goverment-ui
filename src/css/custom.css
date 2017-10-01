@@ -611,7 +611,7 @@ input[type="radio"] + label:before {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em white;
-        border: 1px solid #b8bec3;
+        border: 1px solid #666869;
 }
 
 input[type="radio"] + label:before, input[type="radio"] + label:after{
@@ -734,6 +734,14 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
 }
 
 @media (max-width: 1366px) {
+  .container-survey-question {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    position: relative;
+    z-index: 1000;
+    padding-bottom: 3rem;
+}
   .custom-nav.navbar-static-side {
       width: 17% ;
   }
@@ -755,6 +763,8 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
     margin-left: 14%;
 }
 
+
+
 }
 
 
@@ -762,15 +772,104 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
 
 @media (max-width: 768px) {
 
+  .control-info.pull-right {
+      float: none!important;
+      padding: 15px 0px;
+  }
+
+.control-info a i.fa.fa-info {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #44bcfa;
+    text-align: center;
+    line-height: 40px;
+    color: #44bcfa;
+    font-size: 18px;
+}
+
+input[type="radio"] + label:before, input[type="radio"] + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: Times;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.dashboard-header {
+    border-top: 0;
+    padding: 10px;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+    float: right;
+}
+
+a.dropdown-toggle.count-info {
+    padding: 9px 24px;
+}
+
+.title h3 {
+    line-height: 1;
+    margin: 0 0 7px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-right.breadcrumbs {
+    font-size: 14px;
+    padding: 4px 0px;
+    text-align: left;
+}
+
+  .col-md-hidden {
+    display: none;
+  }
+
+  .col-md-100 {
+    width: 100%;
+  }
+
+  .col-md-20 {
+    width: 20%;
+  }
+
+  .question-para {
+      padding-bottom: 6px;
+  }
+
   #page-wrapper.custom-wrap {
       margin-left: 0%;
   }
   .navbar-static-side {
     width: 14%;
 }
-  .navbar-right .dropdown-menu {
+
+.navbar-right .dropdown-menu {
     right: auto;
-    left: 61px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 0px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+    width: 170px;
 }
 
 #page-wrapper {
