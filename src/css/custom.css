@@ -750,6 +750,32 @@ button.btn.btn-ghost.btn-rounded.btn-custom-width:hover {
   }
 }
 
+@media (max-width: 1280px) {
+    .control-info.pull-right {
+      float: none !important;
+      padding: 10px 0;
+  }
+}
+
+@media (max-width:1024px) {
+  .leftwidth-positive {
+    overflow: auto;
+    position: relative;
+    padding-top: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.temp-survey {
+    margin-left: 0;
+}
+
+}
+
 @media (min-width: 768px) {
   .navbar-static-side {
     width: 14%;
